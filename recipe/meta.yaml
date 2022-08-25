@@ -1,5 +1,5 @@
 {% set name = "avidaq" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/avidaq-{{ version }}.tar.gz
-  sha256: 7000e00b9dadc72cce158a4e80c3f8713879db83b620c934f8a36213679a5dfb
+  sha256: e1691bce07c54b890cec8a7feadb19fd47fef1fb6d689b9b2ff32502a49df6ac
 
 build:
   noarch: python
